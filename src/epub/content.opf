@@ -2,8 +2,8 @@
 <package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#" unique-identifier="uid" version="3.0" xml:lang="en-US">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">https://standardebooks.org/ebooks/carolyn-wells/the-gold-bag</dc:identifier>
-		<dc:date>1900-01-01T00:00:00Z</dc:date>
-		<meta property="dcterms:modified">1900-01-01T00:00:00Z</meta>
+		<dc:date>2026-11-06T20:18:35Z</dc:date>
+		<meta property="dcterms:modified">2026-11-06T20:18:35Z</meta>
 		<dc:rights>The source text and artwork in this ebook are believed to be in the United States public domain; that is, they are believed to be free of copyright restrictions in the United States. They may still be copyrighted in other countries, so users located outside of the United States must check their local laws before using this ebook. The creators of, and contributors to, this ebook dedicate their contributions to the worldwide public domain via the terms in the [CC0 1.0 Universal Public Domain Dedication](https://creativecommons.org/publicdomain/zero/1.0/).</dc:rights>
 		<meta property="rdf:type">http://schema.org/Book</meta>
 		<dc:publisher id="publisher">Standard Ebooks</dc:publisher>
@@ -41,18 +41,17 @@
 		<meta id="collection-1" property="belongs-to-collection">Fleming Stone</meta>
 		<meta property="collection-type" refines="#collection-1">series</meta>
 		<meta property="group-position" refines="#collection-1">2</meta>
-		<meta property="schema:abstract">A detective is hired to investigate the death of a wealthy man who has been murdered in his own home.</meta>
+		<meta property="schema:abstract">A detective investigates the death of a wealthy man found murdered in his own home.</meta>
 		<dc:description>
-			&lt;p&gt;Detective Herbert Burroughs is called to West Sedgwick to investigate the murder of Joseph Crawford, a wealthy man who has been shot in his own home. The most substantial piece of evidence is a gold bag which has been left at the crime scene.&lt;/p&gt;
-			&lt;p&gt;Among the suspects are Crawford’s niece Florence Lloyd and her fiancé Gregory Hall—a liaison which Crawford did not approve of. Before his death, Crawford often threatened to remove Lloyd from his will unless she broke off her engagement to Hall, and Crawford was in fact already in the process of doing so at the time of his death.&lt;/p&gt;
-			&lt;p&gt;During his investigation, Burroughs rapidly falls in love with Lloyd, and tries to prove her innocence while being suspicious of Hall, who repeatedly refuses to provide an alibi for where he was the night of the crime. After following seemingly every possible clue to the killer’s identity, Herbert Burroughs’ idol, Fleming Stone, a master of deduction, is called upon to help solve this difficult case.&lt;/p&gt;
-			&lt;p&gt;&lt;i&gt;The Gold Bag&lt;/i&gt; is &lt;a href="https://standardebooks.org/ebooks/carolyn-wells"&gt;Carolyn Wells’&lt;/a&gt; second mystery novel in the &lt;a href="https://standardebooks.org/collections/fleming-stone"&gt;Fleming Stone&lt;/a&gt; series, a long-running series of over sixty books.&lt;/p&gt;
+			&lt;p&gt;Detective Herbert Burroughs is called to West Sedgwick to investigate the murder of Joseph Crawford, a wealthy man found shot in his own home. The most substantial piece of evidence is a gold bag which has been left at the scene of the crime.&lt;/p&gt;
+			&lt;p&gt;Among the suspects are Crawford’s niece Florence Lloyd and her fiancé Gregory Hall—a liaison which Crawford disapproved of. Before his death, Crawford often threatened to remove Lloyd from his will unless she broke off her engagement to Hall, and Crawford was in fact already in the process of doing so at the time of his death.&lt;/p&gt;
+			&lt;p&gt;During his investigation, Burroughs rapidly falls in love with Lloyd and tries to prove her innocence, while remaining suspicious of Hall, who repeatedly refuses to provide an alibi for where he was the night of the crime. After following seemingly every possible clue to the killer’s identity, Herbert Burroughs’ idol, &lt;a href="https://standardebooks.org/collections/fleming-stone"&gt;Fleming Stone&lt;/a&gt;, a master of deduction, is called upon to help solve this difficult case.&lt;/p&gt;
 		</dc:description>
 		<dc:language>en-US</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/2883</dc:source>
 		<dc:source>https://archive.org/details/goldbag00well</dc:source>
-		<meta property="schema:wordCount">WORD_COUNT</meta>
-		<meta property="schema:educationalLevel">READING_EASE</meta>
+		<meta property="schema:wordCount">66335</meta>
+		<meta property="schema:educationalLevel">73.07</meta>
 		<meta id="vcs-repository" property="schema:workExample">schema:workExample</meta>
 		<meta property="rdf:type" refines="#vcs-repository">http://schema.org/SoftwareSourceCode</meta>
 		<link href="https://github.com/standardebooks/carolyn-wells_the-gold-bag" refines="#vcs-repository" rel="schema:codeRepository"/>
@@ -84,6 +83,11 @@
 		<meta property="role" refines="#producer-1" scheme="marc:relators">mrk</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">pfr</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">tyg</meta>
+		<dc:contributor id="producer-2">David Reimer</dc:contributor>
+		<meta property="file-as" refines="#producer-2">Reimer, David</meta>
+		<link href="https://github.com/dajare" refines="#producer-2" rel="schema:url"/>
+		<link href="https://id.loc.gov/authorities/names/n92075987.html" refines="#producer-2" rel="schema:sameAs"/>
+		<meta property="role" refines="#producer-2" scheme="marc:relators">pfr</meta>
 	</metadata>
 	<manifest>
 		<item href="css/core.css" id="core.css" media-type="text/css"/>
