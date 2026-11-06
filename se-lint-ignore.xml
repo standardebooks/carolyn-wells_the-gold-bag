@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<se-lint-ignore>
-	<file path="chapter-13.xhtml">
-		<ignore code="t-017">
-			<line>94</line>
-			<reason>When an entire clause is italicized, trailing punctuation is italicized.</reason>
-		</ignore>
-	</file>
-</se-lint-ignore>
